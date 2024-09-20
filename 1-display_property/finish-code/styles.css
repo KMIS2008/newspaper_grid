@@ -1,0 +1,163 @@
+@import url(./basic-styles.css);
+
+.circle{
+  background: #00000040;
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+}
+
+.header{
+font-family: 'Nova Cut', sans-serif;
+font-size:72px;
+font-weight: 400;
+line-height: 1;
+text-align: center;
+color: #000000;
+}
+
+.container-header{
+  display: grid;
+  grid-template-columns: 88px 1fr 88px;
+  align-items: start;
+}
+
+.coment{
+font-family: Fira Sans,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,24;
+text-align: center;
+
+color: #00000080;
+}
+
+.container {
+  display: grid;
+
+}
+
+.line{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #00000040;
+}
+
+.body-title{
+font-family: Fira Sans;
+font-size: 80px;
+font-weight: 700;
+line-height: 1,05;
+text-align: center;
+color: #000000;
+}
+
+.container-section-first{
+  display: grid;
+  grid-template-columns: 576px 726px 426px;
+  grid-template-rows: 512px;
+  gap:20px;
+  padding-top: 20px;
+}
+
+.container-item{
+  display: grid;
+  align-items: stretch;
+}
+
+.title-section-first{
+font-family: Fira Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 1,2;
+text-align: left;
+}
+
+.datail {
+  margin-bottom: 20px;
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 1,33;
+text-align: left;
+color: #00000080;
+}
+
+.text{
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1,33;
+  text-align: left;
+  color: #000000;
+}
+
+.foto-section-first{
+  width: 726pxpx;
+  height: 484px;
+
+  background: #00000040;
+}
+
+.section-comment{
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 1,33;
+text-align: left;
+color: #000000;
+}
+
+.title-section{
+font-family: Fira Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 1,17;
+text-align: left;
+color: #000000;
+}
+
+.section-two{
+  display: grid;
+  grid-template-columns: 276px 276px 1fr;
+  gap:10px;
+}
+
+.item{
+  display: flex;
+  gap: 10px;
+}
+
+.title-section-item{
+font-family: Fira Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 1,22;
+text-align: left;
+color: #000000;
+}
+
+.text-section-two{
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,29;
+text-align: left;
+color: #000000;
+}
+
+.line-height{
+  width: 1px;
+  height: 360px;
+  border: 1px solid #00000040;
+}
+
+.list{
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+}
